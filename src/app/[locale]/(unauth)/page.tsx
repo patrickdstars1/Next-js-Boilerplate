@@ -12,8 +12,8 @@ export async function generateMetadata(props: { params: { locale: string } }) {
   });
 
   return {
-    title: t("meta_title"),
-    description: t("meta_description"),
+    title: t('meta_title'),
+    description: t('meta_description'),
   };
 }
 

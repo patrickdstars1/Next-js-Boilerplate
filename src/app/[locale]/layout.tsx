@@ -1,33 +1,33 @@
-import "@/styles/global.css";
+import '@/styles/global.css';
 
-import type { Metadata } from "next";
-import { notFound } from "next/navigation";
-import { NextIntlClientProvider, useMessages } from "next-intl";
+import type { Metadata } from 'next';
+import { notFound } from 'next/navigation';
+import { NextIntlClientProvider, useMessages } from 'next-intl';
 
-import { DemoBadge } from "@/components/DemoBadge";
-import { AppConfig } from "@/utils/AppConfig";
+import { DemoBadge } from '@/components/DemoBadge';
+import { AppConfig } from '@/utils/AppConfig';
 
 export const metadata: Metadata = {
   icons: [
     {
-      rel: "apple-touch-icon",
-      url: "/apple-touch-icon.png",
+      rel: 'apple-touch-icon',
+      url: '/apple-touch-icon.png',
     },
     {
-      rel: "icon",
+      rel: 'icon',
       type: "image/png",
       sizes: "32x32",
-      url: "/favicon-32x32.png",
+      url: '/favicon-32x32.png',
     },
     {
-      rel: "icon",
+      rel: 'icon',
       type: "image/png",
       sizes: "16x16",
-      url: "/favicon-16x16.png",
+      url: '/favicon-16x16.png',
     },
     {
-      rel: "icon",
-      url: "/favicon.ico",
+      rel: 'icon',
+      url: '/favicon.ico',
     },
   ],
 };
