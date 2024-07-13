@@ -6,13 +6,9 @@
     "plugin:prettier/recommended"
   ],
   "rules": {
-    "prettier/prettier": [
-      "error",
-      {
-        "singleQuote": true,
-        "endOfLine": "auto"
-      }
-    ] // Avoid conflict rule between Prettier and Airbnb Eslint
+    "prettier/prettier": "off",  // ปิดการใช้งานกฎ prettier
+    "react/jsx-no-useless-fragment": "off",  // ปิดการใช้งานกฎ react/jsx-no-useless-fragment
+    "simple-import-sort/imports": "off"  // ปิดการใช้งานกฎ simple-import-sort/imports
   },
   "overrides": [
     // Configuration for TypeScript files

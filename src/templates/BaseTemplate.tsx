@@ -1,5 +1,5 @@
+import { NavBar } from "@/components/NavBar";
 
-import { NavBar } from '@/components/NavBar';
 const BaseTemplate = (props: {
   leftNav: React.ReactNode;
   rightNav?: React.ReactNode;
@@ -12,9 +12,7 @@ const BaseTemplate = (props: {
           <div className="pb-8 pt-16">
             <h1 className="text-3xl font-bold text-gray-900"></h1>
           </div>
-          <div className="">
-            <NavBar />
-          </div>
+          <NavBar />
           <div className="flex justify-between ">
             <nav>
               <ul className="flex flex-wrap gap-x-5 text-xl">
