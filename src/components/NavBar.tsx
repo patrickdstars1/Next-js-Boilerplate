@@ -6,13 +6,7 @@ const NavBar: React.FC = () => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
-            {/* <button
-                        id="sideNavButton"
-                        className="text-purple-300 focus:outline-none"
-                        aria-label="Toggle Side Navigation"
-                    >
-                        <i className="material-icons icon-va-8 p-lnr-8">menu</i>
-                    </button> */}
+            
             <a href="https://pantip.com/" className="ml-2">
               <img
                 src="https://ptcdn.info/mobile/logo-mobile-pantip-white.png"

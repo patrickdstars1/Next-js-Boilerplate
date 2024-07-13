@@ -6,9 +6,9 @@
     "plugin:prettier/recommended"
   ],
   "rules": {
-    "prettier/prettier": "off",  // ปิดการใช้งานกฎ prettier
-    "react/jsx-no-useless-fragment": "off",  // ปิดการใช้งานกฎ react/jsx-no-useless-fragment
-    "simple-import-sort/imports": "off"  // ปิดการใช้งานกฎ simple-import-sort/imports
+    "prettier/prettier": "off", 
+    "react/jsx-no-useless-fragment": "off",  
+    "simple-import-sort/imports": "off"  
   },
   "overrides": [
     // Configuration for TypeScript files
