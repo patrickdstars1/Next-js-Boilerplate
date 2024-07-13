@@ -1,4 +1,4 @@
-'use·client';
+'use client';
 
 import React, { useRef } from 'react';
 import Pageslot from './Pageslot';
