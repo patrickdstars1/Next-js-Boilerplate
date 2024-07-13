@@ -174,7 +174,7 @@ const ImageCard: React.FC = () => {
           <div className="p-4 bg-white shadow-lg rounded-lg">
             <a href="https://pantip.com/topic/42814882" target="_blank" rel="noopener noreferrer">
               <img
-                src="hhttps://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTEyNTQ0NTEyMzEwMTI3NDg1MQ%3D%3D/original/bd73f0f8-9057-4bbc-ad70-1db13eb5c03f.png?im_w=1440&im_q=highq"
+                src="https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTEyNTQ0NTEyMzEwMTI3NDg1MQ%3D%3D/original/bd73f0f8-9057-4bbc-ad70-1db13eb5c03f.png?im_w=1440&im_q=highq"
                 alt="Room"
                 className="w-full h-64 object-cover rounded-lg mb-4"
               />
