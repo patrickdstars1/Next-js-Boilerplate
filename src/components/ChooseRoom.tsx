@@ -1,7 +1,7 @@
-// ChooseRoom.tsx
-"use client";
-import React, { useRef } from "react";
-import Pageslot from "./Pageslot";
+
+"use·client";
+import React, { useRef } from 'react';
+import Pageslot from './Pageslot';
 
 const ChooseRoom: React.FC = () => {
   const sliderRef = useRef<HTMLDivElement>(null);

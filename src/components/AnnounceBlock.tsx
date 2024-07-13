@@ -1,5 +1,5 @@
 // AnnounceBlock.tsx
-import React from "react";
+import React from 'react';
 
 const AnnounceBlock: React.FC = () => {
   return (

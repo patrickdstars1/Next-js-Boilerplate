@@ -1,4 +1,5 @@
-import { NavBar } from "@/components/NavBar";
+
+import { NavBar } from '@/components/NavBar';
 const BaseTemplate = (props: {
   leftNav: React.ReactNode;
   rightNav?: React.ReactNode;
