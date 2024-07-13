@@ -30,15 +30,15 @@ const NavBar: React.FC = () => {
                 maxLength={256}
               />
               <i className="material-icons md-18 icon-va-6 text-purple-300 w-8 h-8">
-               <img src="https://static-00.iconduck.com/assets.00/search-icon-2048x2048-cmujl7en.png" alt="" />
+                <img
+                  src="https://static-00.iconduck.com/assets.00/search-icon-2048x2048-cmujl7en.png"
+                  alt=""
+                />
               </i>
             </div>
           </div>
           <div className="flex items-center">
-            <a
-              href="https://pantip.com/forum/new_topic"
-              className=""
-            >
+            <a href="https://pantip.com/forum/new_topic" className="">
               <i className="pantip-icons pt-ic-add_post icon-va-6 icolor-primary"></i>
               <span className="ml-2 pt-lg-hide">ตั้งกระทู้</span>
             </a>

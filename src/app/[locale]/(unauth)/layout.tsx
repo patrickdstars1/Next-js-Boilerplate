@@ -1,27 +1,8 @@
-
-
-
-
-import { BaseTemplate } from '@/templates/BaseTemplate';
+import { BaseTemplate } from "@/templates/BaseTemplate";
 
 export default function Layout(props: { children: React.ReactNode }) {
-
-
   return (
-    <BaseTemplate
-      leftNav={
-        <>
-         
-        </>
-      }
-      rightNav={
-        <>
-          
-
-      
-        </>
-      }
-    >
+    <BaseTemplate leftNav={<></>} rightNav={<></>}>
       <div className="py-5 text-xl [&_p]:my-6">{props.children}</div>
     </BaseTemplate>
   );
